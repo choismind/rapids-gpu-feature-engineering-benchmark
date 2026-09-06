@@ -1,0 +1,13 @@
+{
+  "backend": "cpu",
+  "n_rows": 10000000,
+  "n_products": 100000,
+  "seconds": {
+    "groupby_transform_mean": 0.08672582099999993,
+    "groupby_highcard": 0.15263379299999968,
+    "binning": 0.1310311369999999,
+    "string_combine": 1.5510101390000006,
+    "value_counts": 0.132958511,
+    "oof_te_5folds": 1.9292799640000027
+  }
+}

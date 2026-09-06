@@ -1,0 +1,15 @@
+{
+  "backend": "gpu",
+  "n_rows": 10000000,
+  "seconds": {
+    "join_small_strkey": 0.030412600000090606,
+    "join_mid_intkey": 0.022610957999859238,
+    "join_chained": 0.05375794199972006,
+    "write_parquet": 1.7668247069996141,
+    "write_csv": 2.3475798019999274,
+    "read_parquet": 0.024923322000176995,
+    "read_csv": 0.0678503319995798,
+    "read_yearly_concat": 0.12825178100047196,
+    "read_parquet_drvfs": 0.22293740900022385
+  }
+}

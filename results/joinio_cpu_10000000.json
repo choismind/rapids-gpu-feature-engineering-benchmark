@@ -1,0 +1,15 @@
+{
+  "backend": "cpu",
+  "n_rows": 10000000,
+  "seconds": {
+    "join_small_strkey": 0.7553947520000293,
+    "join_mid_intkey": 0.47931710699958785,
+    "join_chained": 1.3589469290000125,
+    "write_parquet": 1.1912586729995382,
+    "write_csv": 8.32889444600005,
+    "read_parquet": 0.15769941700000345,
+    "read_csv": 3.407974247000311,
+    "read_yearly_concat": 0.1660525190000044,
+    "read_parquet_drvfs": 0.48483060499984276
+  }
+}

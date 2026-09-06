@@ -1,0 +1,13 @@
+{
+  "backend": "gpu",
+  "n_rows": 10000000,
+  "n_products": 100000,
+  "seconds": {
+    "groupby_transform_mean": 0.045425711000000035,
+    "groupby_highcard": 0.009458295000001726,
+    "binning": 0.007071993000000276,
+    "string_combine": 0.01326369799999938,
+    "value_counts": 0.012480180000000729,
+    "oof_te_5folds": 0.4947033199999993
+  }
+}
