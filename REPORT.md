@@ -709,3 +709,12 @@ GPU 시간은 데이터 크기에 거의 반응하지 않으므로(0.26~0.50초)
 
 - Parul Pandey, "How Much of a Data Science Workflow Can Run on a GPU Today? Part 2: Feature Engineering", *Medium*, 2026-08-28.
   <https://pandeyparul.medium.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-818890a2f0dc>
+
+---
+
+## 작성 도구
+
+이 문서와 `scripts/` 의 검증 코드는 **Claude Code**(Anthropic)의 도움을 받아 작성했습니다.
+환경 조사, 스크립트 구현, 벤치마크 실행, 결과 정리를 Claude Code 와 함께 진행했습니다.
+
+본문의 모든 수치는 이 PC 에서 실제로 측정한 값이며, `scripts/` 를 그대로 돌려 재현할 수 있습니다.
